@@ -60,7 +60,7 @@ window.onload = function() {
             }), 2000);
           }
           if ($('.our-work').hasClass('active')) {
-            $('.our-work i').delay(500).fadeTo( "slow" , 1, function() {
+            $('.our-work i').fadeTo( "slow" , 1, function() {
                 $('.our-work i').animate({'marginTop':'0px'}, 1000);
                 $('.our-work h4,.our-work p').delay(500).fadeTo( "slow" , 1, function() {
                 // Animation complete.
