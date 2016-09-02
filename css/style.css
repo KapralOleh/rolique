@@ -74,7 +74,12 @@ header {
   padding: 40px 50px;
   position: fixed;
   width: 100%;
-  z-index: 2; }
+  z-index: 2;
+  background: transparent;
+  background: -moz-linear-gradient(top, rgba(0, 0, 0, 0.65) 0%, transparent 100%);
+  background: -webkit-linear-gradient(top, rgba(0, 0, 0, 0.65) 0%, transparent 100%);
+  background: linear-gradient(to bottom, rgba(0, 0, 0, 0.65) 0%, transparent 100%);
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#a6000000', endColorstr='#00000000',GradientType=0 ); }
   header .logo {
     width: 139px;
     height: 21px;
